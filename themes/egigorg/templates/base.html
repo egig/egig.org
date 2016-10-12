@@ -30,23 +30,28 @@
         {% endif %}
         {% endblock head %}
 
-        <!-- Google Fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-
-        <!-- CSS Reset -->
-        <link rel="stylesheet" href="/vendor/normalize.css/normalize.css">
-
         <!-- Milligram CSS minified -->
-        <link rel="stylesheet" href="/vendor/milligram/dist/milligram.min.css">
+        <link rel="stylesheet" href="/vendor/bootstrap/dist/css/bootstrap.min.css">
 </head>
 
 <body id="index" class="home">
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="{{ SITEURL }}/">
+              {{ SITENAME }} <small>{{ SITESUBTITLE }}</small>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
   <div class="container">
     <div class="row">
-      <div class="column">
-        <header id="banner" class="body">
-                <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
-        </header><!-- /#banner -->
+      <div class="col-md-8 col-md-offset-2">
         <nav id="menu"><ul>
         {% for title, link in MENUITEMS %}
             <li><a href="{{ link }}">{{ title }}</a></li>
