@@ -23,10 +23,13 @@ DEFAULT_PAGINATION = 5
 
 THEME = "themes/egigorg"
 THEME_STATIC_DIR = '.'
-ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
-ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
+PAGE_URL = 'p/{slug}.html'
+PAGE_SAVE_AS = 'p/{slug}.html'
 
-MENUITEMS = ( ('Archives', '/archives.html'), ('Subscribe', 'http://eepurl.com/bo4tmb'), )
+MENUITEMS = (
+    ('Archives', '/archives.html'),
+    ('Subscribe', 'http://eepurl.com/bo4tmb'),
+    ('Feed', '/feeds/all.atom.xml'),)
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
