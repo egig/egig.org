@@ -21,7 +21,7 @@ AUTHOR_FEED_RSS = None
 
 DEFAULT_PAGINATION = 5
 
-THEME = "themes/egigorg"
+THEME = "themes/egig.org"
 THEME_STATIC_DIR = '.'
 PAGE_URL = 'p/{slug}.html'
 PAGE_SAVE_AS = 'p/{slug}.html'

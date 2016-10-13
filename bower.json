@@ -12,7 +12,7 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "themes/egigorg/static/vendor",
+    "themes/egig.org/static/vendor",
     "test",
     "tests"
   ],
