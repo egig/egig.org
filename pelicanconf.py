@@ -23,8 +23,8 @@ DEFAULT_PAGINATION = 5
 
 THEME = "themes/egig.org"
 THEME_STATIC_DIR = '.'
-PAGE_URL = 'p/{slug}.html'
-PAGE_SAVE_AS = 'p/{slug}.html'
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
 TAG_URL = 'tag/{slug}.html'
 TAG_SAVE_AS = 'tag/{slug}.html'
 
