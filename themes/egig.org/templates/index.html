@@ -1,17 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-<style media="screen">
-  ol#post-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
 
-  ol#post-list li {
-    margin: 0;
-    padding: 0;
-  }
-</style>
 <section id="content">
 <ol id="post-list">
 {% for article in articles_page.object_list %}
@@ -19,11 +8,9 @@
                 <header> <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
                 <footer class="post-info">
                     <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
-                    <address class="vcard author">By
-                    {% for author in article.authors %}
-                        <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+                    {% for tag in article.tags %}
+                      <a href="{{ tag.url }}">#{{ tag }}</a>
                     {% endfor %}
-                    </address>
                 </footer><!-- /.post-info -->
                 <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->
         </article></li>

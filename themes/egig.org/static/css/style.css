@@ -1,0 +1,14 @@
+ol#post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ol#post-list li {
+  margin: 0;
+  padding: 0;
+}
+
+.post-info {
+  margin-bottom: 20px;
+}

@@ -25,6 +25,8 @@ THEME = "themes/egig.org"
 THEME_STATIC_DIR = '.'
 PAGE_URL = 'p/{slug}.html'
 PAGE_SAVE_AS = 'p/{slug}.html'
+TAG_URL = 'tag/{slug}.html'
+TAG_SAVE_AS = 'tag/{slug}.html'
 
 MENUITEMS = (
     ('Archives', '/archives.html'),

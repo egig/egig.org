@@ -1,6 +1,7 @@
 Title: Symfony, Log to Database
 Date: 2016-01-08 17:00
 Author: egig
+Tags: symfony
 Category: Uncategorized
 Slug: symfony-log-to-database
 Status: published

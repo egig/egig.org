@@ -1,6 +1,7 @@
 Title: Understanding Laravel 4
 Date: 2013-10-15 17:00
 Author: egig
+Tags: laravel
 Category: Uncategorized
 Slug: understanding-laravel-4
 Status: published
