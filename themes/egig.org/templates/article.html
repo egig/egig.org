@@ -26,6 +26,9 @@
     <abbr class="published" title="{{ article.date.isoformat() }}">
       {{ article.locale_date }}
     </abbr>
+    {% for tag in article.tags %}
+      <a href="{{ tag.url }}">#{{ tag }}</a>
+    {% endfor %}
 	{% if article.modified %}
     <abbr class="modified" title="{{ article.modified.isoformat() }}">
       {{ article.locale_modified }}

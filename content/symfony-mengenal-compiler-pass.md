@@ -10,14 +10,14 @@ dianalogikan sebagai librari php lainnya yang punya fungsi tertentu,
 misal seperti Mailer atau Database library, namun diintegrasikan pada
 symfony dengan cara tersendiri.
 
-Katakan kita membuat suatu service pada pada file configurasi
+Katakan kita membuat suatu service pada file konfigurasi
 `app/config/services.yml`, misal:
 
     twitter_api_client:
         class: ..
 
 Pada penggunaannya, symfony akan membuat suatu container, dan
-configurasi yml diatas akan di-compile ke dalam code php kurang lebih
+konfigurasi yml diatas akan di-compile ke dalam code php kurang lebih
 sebagai berikut:
 
     $twitterApiClient = new...
