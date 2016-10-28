@@ -12,3 +12,15 @@ ol#post-list li {
 .post-info {
   margin-bottom: 20px;
 }
+
+/* Archives */
+.entry-archive .date {
+  color: #676767;
+  text-align: right;
+}
+
+ul.list-archive {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
