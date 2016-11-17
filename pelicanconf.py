@@ -25,8 +25,8 @@ THEME = "themes/egig.org"
 THEME_STATIC_DIR = '.'
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
-TAG_URL = 'tag/{slug}.html'
-TAG_SAVE_AS = 'tag/{slug}.html'
+TAG_URL = '/tag/{slug}.html'
+TAG_SAVE_AS = '/tag/{slug}.html'
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}.html'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}.html'
 
