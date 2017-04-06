@@ -1,3 +1,4 @@
 /output
 /themes/egig.org/static/vendor
 *.pyc
+.idea/
