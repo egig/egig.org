@@ -82,6 +82,6 @@ Kapanpun `state` berubah, maka view atau komponen yang berkaitan dengan state te
 
 Kapan `state` berubah ? `state` akan berubah setiap kali programmer memanggil fungsi `setState()`. Dengan demikian, setiap kali fungsi `setState()` dipanggil, maka akan terjadi render kembali pada komponen yang berkaitan.
 
-Stop teori. Mari Praktek
+Cukup teori. Mari Praktek
 
 
