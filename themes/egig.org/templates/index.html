@@ -9,7 +9,7 @@
                 <footer class="post-info">
                     <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
                     {% for tag in article.tags %}
-                      <a href="{{ tag.url }}">#{{ tag }}</a>
+                      <a href="/{{ tag.url }}">#{{ tag }}</a>
                     {% endfor %}
                 </footer><!-- /.post-info -->
                 <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->

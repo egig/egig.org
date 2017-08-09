@@ -28,7 +28,7 @@
       {{ article.locale_date }}
     </abbr>
     {% for tag in article.tags %}
-      <a href="{{ tag.url }}">#{{ tag }}</a>
+      <a href="/{{ tag.url }}">#{{ tag }}</a>
     {% endfor %}
 	{% if article.modified %}
     <abbr class="modified" title="{{ article.modified.isoformat() }}">

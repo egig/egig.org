@@ -3,6 +3,7 @@ Date: 2016-10-28 17:00
 Tags: development
 Slug: file-konfigurasi-dan-environment
 Status: published
+Author: egig
 
 Bagi yang sedang belajar pengembangan aplikasi perangkat lunak terutama aplikasi berbasis web, penting untuk mengerti, lalu _care_ terhadap konfigurasi aplikasi. Apalagi sekarang sudah serba _cloud_, dan open, konfigurasi aplikasi harus diatur dengan hati-hati demi keamanan dan kemudahan pengembangan.
 
